@@ -84,6 +84,14 @@
     color: #6a6b6d;
     font-weight: 600;
     margin: 0 0.3rem;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+
+    :focus {
+        outline: none;
+    }
 
     &-2 {
       &-icon {
