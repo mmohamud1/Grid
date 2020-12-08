@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Colours
+$color-primary: #6a6b6d;
+$color-white: #fff;
+$color-black: #000;
+$color-background: #f4f5f9;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #f4f5f9;
+  color:  #6a6b6d;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+// Responsivenss
+@mixin respond($breakpoint) {
+    @if $breakpoint == small-phone {
+        @media only screen and (max-width: 350px) { @content };    
+    }
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 630px) { @content };    
+    }
+    @if $breakpoint == tablet {
+        @media only screen and (max-width: 900px) { @content };     
+    }
+    @if $breakpoint == laptop {
+        @media only screen and (max-width: 1200px) { @content };    
+    }
+    @if $breakpoint == desktop {
+        @media only screen and (max-width: 1700px) { @content };   
+    }
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 1700px) { @content };    
+    }
+}

@@ -5,7 +5,7 @@
     "title": "Russell Hobbs Pennine Illuminating S Steel Kettle",
     "price": 39.99,
     "description":"- 1.7 Litre glass kettle with brushed stainless steel accents.- Blue illumination on boil.-Save up to 66 percent energy saving by boiling one cup (235 ml) vs 1 Litre.- Concealed element and removable, washable filter.- Includes code for 75 percent off a bottle of Russell Hobbs multipurpose descale",
-    "image": "assets/kettle.png"
+    "image": "./assets/kettle.png"
   },
   {
     "productId": "76y861",

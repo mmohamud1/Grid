@@ -1,0 +1,110 @@
+// NAVBAR
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0rem 3.5rem;
+  color: #6a6b6d;
+
+  &-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 20%;
+    color: #6a6b6d;
+  }
+
+  &-toggle {
+    display: none;
+  }
+
+  &-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+    &-responsive {
+      display: inline-block;
+      width: 70%;
+
+      &-label {
+        display: none;
+        text-align: right;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+    }
+  }
+
+  &-search {
+    width: 75%;
+    background: #fff;
+    height: 46px;
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+
+    &-input {
+      font-family: inherit;
+      font-size: inherit;
+      color: black;
+      background-color: #fff;
+      border: none;
+      padding: 0.7rem 2rem;
+      border-radius: 5px;
+      width: 90%;
+      transition: all 0.2s;
+      margin-right: -1.8rem;
+
+      &:focus {
+        outline: none;
+        width: 100%;
+        background-color: #fff;
+      }
+
+      &::-webkit-input-placeholder {
+        font-weight: 400;
+      }
+    }
+
+    &-button {
+      height: 46px;
+      outline: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  &-link {
+    text-decoration: none;
+    color: #6a6b6d;
+    font-weight: 600;
+    margin: 0 0.3rem;
+
+    &-2 {
+      &-icon {
+        font-size: 30px;
+        position: relative;
+
+        &-notif {
+          position: absolute;
+          top: 15px;
+          right: 45px;
+          padding: 2px 7px;
+          border-radius: 50%;
+          background: red;
+          color: white;
+          font-size: 10px;
+        }
+      }
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
