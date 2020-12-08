@@ -17,9 +17,9 @@ const Navbar = () => {
             <div className='nav-menu-responsive'>
               <NavbarSearch />
             </div>
-            <button className='nav-link' onClick={() => setModalIsOpen(true)}>
+            <div className='nav-link' onClick={() => setModalIsOpen(true)}>
               Sign Up
-            </button>
+            </div>
             <a href='/' className='nav-link-2' id='open-2'>
               <i className='fas fa-shopping-basket nav-link-2-icon'></i>
               <span className='nav-link-2-icon-notif'>3</span>
