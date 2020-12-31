@@ -1,0 +1,18 @@
+/* every other div has different shade of grey */
+.grid-container > div {
+  background: #eee;
+  padding: 1em;
+}
+
+.grid-container > div:nth-child(odd) {
+  background: #ddd;
+}
+
+
+/* Grid */
+
+.grid-container {
+  display: grid;
+
+}
+
