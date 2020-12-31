@@ -1,9 +1,0 @@
-.grid-container > div {
-  background: #eee;
-  padding: 1em;
-}
-
-/* every other element has different shade of grey */
-.grid-container > div:nth-child(odd) {
-  background: #ddd;
-}
