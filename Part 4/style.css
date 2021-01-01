@@ -5,9 +5,17 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  display: grid;
+  grid-template-columns: auto 27% 27% 27%;
+  grid-template-rows: 8% 30% auto 10%;
+  grid-template-areas:
+    'sidebar header header header'
+    'sidebar sect1 sect2 sect3'
+    'sidebar main main main'
+    'sidebar footer footer footer';
 }
 
-.grid-container {
-  display: grid;
+aside {
+  grid-area: sidebar;
+  background-color: #007fff;
 }
