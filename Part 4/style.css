@@ -39,3 +39,13 @@ header {
   grid-area: sect3;
   background-color: #6d9fd2;
 }
+
+main {
+  grid-area: main;
+  background-color: #7da9d5;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #588ec3;
+}
