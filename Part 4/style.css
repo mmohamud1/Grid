@@ -7,7 +7,7 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: 0.6fr 1fr 1fr 1fr;
-  grid-template-rows: 8% 30% auto 10%;
+  grid-template-rows: .4fr 1.5fr 3fr .7fr;
   grid-template-areas:
     'sidebar header header header'
     'sidebar sect1 sect2 sect3'
