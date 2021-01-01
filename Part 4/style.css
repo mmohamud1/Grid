@@ -52,17 +52,19 @@ footer {
 
 /* Responsive */
 
-@media only screen and (min-width: 768px) {
-    
+@media only screen and (max-width: 768px) {
+
   body {
     margin: 0;
     display: grid;
-    grid-template-columns: 0.6fr 1fr 1fr 1fr;
-    grid-template-rows: 8% 30% auto 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr .5fr;
     grid-template-areas:
-      'sidebar header header header'
-      'sidebar sect1 sect2 sect3'
-      'sidebar main main main'
-      'sidebar footer footer footer';
+      'sect1'
+      'sect2'
+      'sect3'
+      'main'
+      'footer';
+
   }
 }
